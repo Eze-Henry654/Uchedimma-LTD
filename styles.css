@@ -437,6 +437,12 @@ body {
   object-fit: cover;
 }
 
+.slide img.slide-adjust {
+  object-fit: contain !important;
+  background-color: #0a0c10;
+  /*object-position: center top;*/
+}
+
 .slide-overlay {
   position: absolute;
   bottom: 0;
